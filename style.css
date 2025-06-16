@@ -453,21 +453,28 @@ img {
   padding: 14px;
   margin: 0; /* Remove default margin */
   cursor: pointer;
+  
+
 }
+
 
 .paragraph1:hover {
   color: red;
 }
-
 .Tech-Skill {
-  text-align: center;
+  text-align: left; /*or start*/
   padding: 12px;
   font-weight: 700;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 19px;
-  color: white; /* Add a readable color for the paragraph */
-  line-height: 1.6; /* Improve readability */
+  font-size: 1.2rem;
+  color: white;
+  line-height: 1.6;
+  font-family: "Roboto Mono", monospace; /*A modern monospace alternative */
+ 
 }
+
+
+
+
 
 .skills {
   margin: 0 auto; /* Center the div */
@@ -775,6 +782,7 @@ img {
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s;
+  
 }
 
 .github-btn:hover {
